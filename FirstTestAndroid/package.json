@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
-  "repository": { "url": "https://github.com/masticapilas/moto-tracker-sos.git"},
+  "repository": {
+    "url": "https://github.com/masticapilas/moto-tracker-sos.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -27,6 +29,7 @@
     "cordova-android": "^8.1.0",
     "cordova-browser": "^6.0.0",
     "cordova-plugin-geolocation": "^4.0.2",
+    "dotenv": "^8.2.0",
     "jquery": "^3.5.1",
     "mapbox-gl": "^1.11.1",
     "popper.js": "^1.16.1",

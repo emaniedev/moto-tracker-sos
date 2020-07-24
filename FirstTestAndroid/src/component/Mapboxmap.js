@@ -9,7 +9,7 @@ class Mapboxmap extends React.Component{
         };
     }
     init (){
-        mapboxgl.accessToken = 'pk.eyJ1IjoiZW1hbmllZ2EiLCJhIjoiY2tjejcwaHoyMGd3ZDJ0b3V2eGxka2szeiJ9.n9FOB-J67uZMTnXtYHZVFA';
+        mapboxgl.accessToken = process.env.MAPBOX_API_TOKEN;
         var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',

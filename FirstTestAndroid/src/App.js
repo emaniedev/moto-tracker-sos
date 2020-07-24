@@ -1,9 +1,11 @@
 import React from 'react';
+import dotenv from 'dotenv';
 import Mapboxmap from './component/Mapboxmap'
 
 class App extends React.Component {
   constructor(){
     super();
+    dotenv.config();
     this.state = {
       message: 'Hola mundo!',
       follow: false
