@@ -35,7 +35,7 @@
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "rimraf": "^3.0.2"
   },
   "devDependencies": {
